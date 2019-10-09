@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_video"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/curved_layout"
+    android:elevation="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <com.joooonho.SelectableRoundedImageView
+            android:id="@+id/row_image"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1.2"
+            android:scaleType="fitXY"
+            app:sriv_left_bottom_corner_radius="10dp"
+            app:sriv_left_top_corner_radius="10dp" />
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2.8"
+            android:text="Video title goes in this area"
+            android:textColor="#a9a9a9"
+            android:textSize="12dp" />
+        <!--&lt;!&ndash;            android:maxLines="2"&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:ellipsize="end"&ndash;&gt;-->
+
+
+    </LinearLayout>
+
+</LinearLayout>

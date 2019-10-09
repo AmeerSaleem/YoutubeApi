@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/curved_layout"
+    android:orientation="vertical">
+
+    <com.joooonho.SelectableRoundedImageView
+        android:id="@+id/detail_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="5dp"
+        android:scaleType="fitXY"
+        app:sriv_left_top_corner_radius="10dp"
+        app:sriv_right_top_corner_radius="10dp" />
+
+
+
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Title"
+            android:textSize="18dp" />
+
+
+
+            <TextView
+                android:id="@+id/detail_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textSize="14dp"
+                android:textColor="#0044FF"
+                />
+
+    <TextView
+        android:id="@+id/detail_publish_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:text="Publish Date"
+        android:textColor="#a9a9a9"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/detail_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:text="Description"
+        android:textSize="14dp" />
+
+</LinearLayout>
